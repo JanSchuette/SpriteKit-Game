@@ -159,7 +159,8 @@ override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)
         projectile.removeFromParent()
         monster.removeFromParent()
         monstersDestroyed++
-        if (monstersDestroyed > 30) {
+        if (monstersDestroyed > 30)
+        {
             let reveal = SKTransition.flipHorizontalWithDuration(0.5)
             let gameOverScene = GameOverScene(size: self.size, won: true)
             self.view?.presentScene(gameOverScene, transition: reveal)

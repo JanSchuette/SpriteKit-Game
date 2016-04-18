@@ -58,4 +58,5 @@ class GameScene: SKScene
         let actionMoveDone = SKAction.removeFromParent()
         monster.runAction(SKAction.sequence([actionMove, actionMoveDone]))
         
-    }}
+    }
+}

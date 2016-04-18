@@ -27,7 +27,7 @@ class GameOverScene: SKScene {
         label.fontColor = SKColor.blackColor()
         label.position = CGPoint(x: size.width/2, y: size.height/2)
         addChild(label)
-        
+        //h
         // 4
         runAction(SKAction.sequence([
             SKAction.waitForDuration(3.0),

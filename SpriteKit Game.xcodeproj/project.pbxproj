@@ -17,6 +17,7 @@
 		0D83EC0D1CC4BBBA00748F64 /* SpriteKit_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83EC0C1CC4BBBA00748F64 /* SpriteKit_GameUITests.swift */; };
 		0D83EC201CC4BECC00748F64 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 0D83EC1E1CC4BECC00748F64 /* Sounds */; };
 		0D83EC211CC4BECC00748F64 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0D83EC1F1CC4BECC00748F64 /* sprites.atlas */; };
+		0D83EC231CC4CC1500748F64 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83EC221CC4CC1500748F64 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0D83EC0E1CC4BBBA00748F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D83EC1E1CC4BECC00748F64 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		0D83EC1F1CC4BECC00748F64 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		0D83EC221CC4CC1500748F64 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				0D83EBE81CC4BBBA00748F64 /* AppDelegate.swift */,
 				0D83EBEC1CC4BBBA00748F64 /* GameScene.swift */,
+				0D83EC221CC4CC1500748F64 /* GameOverScene.swift */,
 				0D83EBEE1CC4BBBA00748F64 /* GameViewController.swift */,
 				0D83EBF01CC4BBBA00748F64 /* Main.storyboard */,
 				0D83EBF31CC4BBBA00748F64 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				0D83EBED1CC4BBBA00748F64 /* GameScene.swift in Sources */,
 				0D83EBEF1CC4BBBA00748F64 /* GameViewController.swift in Sources */,
+				0D83EC231CC4CC1500748F64 /* GameOverScene.swift in Sources */,
 				0D83EBE91CC4BBBA00748F64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +500,7 @@
 				0D83EC131CC4BBBA00748F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D83EC141CC4BBBA00748F64 /* Build configuration list for PBXNativeTarget "SpriteKit GameTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				0D83EC161CC4BBBA00748F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D83EC171CC4BBBA00748F64 /* Build configuration list for PBXNativeTarget "SpriteKit GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				0D83EC191CC4BBBA00748F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
